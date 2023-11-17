@@ -32,3 +32,4 @@ void main()
 	outtext("Pempto CAD v0.1");
 	getch();
 	closegraph();
+}
