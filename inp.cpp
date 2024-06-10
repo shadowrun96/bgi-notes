@@ -1,5 +1,5 @@
 // getinp.cpp
-// for sadness 1995.
+// burried dreams 1995.
 
 
 
