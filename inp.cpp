@@ -29,9 +29,7 @@ void main() {
 	for (int t=0;t<254;t++)
 	{
 
-	  // a_b
-	  //
-
+	
 	  if (inp[t]==0) { break;}
 
 	  if (inp[t]!=' ' && tokenfound==0)
