@@ -1,4 +1,7 @@
 // getinp.cpp
+// for sadness 1995.
+
+
 
 #include <iostream.h>
 #include <iomanip.h>
