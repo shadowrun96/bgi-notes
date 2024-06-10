@@ -1,8 +1,6 @@
 // getinp.cpp
 // burried dreams 1995.
 
-
-
 #include <iostream.h>
 #include <iomanip.h>
 
