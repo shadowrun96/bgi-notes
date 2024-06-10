@@ -44,25 +44,29 @@ void main() {
 	  {
 	    switch (inp[p])
 	    {
-	      case '0': cout << "0 defined op "; break;
-	      case '1': cout << "1 defined op "; break;
-	      case '2': cout << "2 defined op "; break;
-	      case '3': cout << "3 defined op "; break;
-	      case '4': cout << "4 defined op "; break;
-	      case '5': cout << "5 defined op "; break;
-	      case '6': cout << "6 defined op "; break;
-	      case '7': cout << "7 defined op "; break;
-	      case '8': cout << "8 defined op "; break;
-	      case '9': cout << "9 defined op "; break;
-	      case '+': cout << "+ defined op "; break;
-	      case '-': cout << "- defined op "; break;
-	      case '*': cout << "* defined op "; break;
-	      case '/': cout << "/ defined op "; break;
-	      case 's': cout << "s defined op "; break;
-	      case 'd': cout << "d defined op "; break;
+	      case '0': cout << "0 -- push value to stack" << endl;break;
+	      case '1': cout << "1 -- push value to stack" << endl;break;
+	      case '2': cout << "2 -- push value to stack" << endl;break;
+	      case '3': cout << "3 -- push value to stack" << endl;break;
+	      case '4': cout << "4 -- push value to stack" << endl;break;
+	      case '5': cout << "5 -- push value to stack" << endl;break;
+	      case '6': cout << "6 -- push value to stack" << endl;break;
+	      case '7': cout << "7 -- push value to stack" << endl;break;
+	      case '8': cout << "8 -- push value to stack" << endl;break;
+	      case '9': cout << "9 -- push value to stack" << endl;break;
+	      case '+': cout << "+ -- pop last two, add and push to stack" << endl;break;
+	      case '-': cout << "- -- pop last two, subtract and push to stack" << endl;break;
+	      case '*': cout << "* -- pop last two, multiply and push to stack" << endl;break;
+	      case '/': cout << "/ -- pop last two, divide and push to stack" << endl;break;
+	      case 's': cout << "s -- print stack" << endl;break;
+	      case 'd': cout << "d -- duplicate last and push to stack " << endl;break;
+	      case '@': cout << "@ -- pop last and print ASCII character" << endl;break;
+	      case ':': cout << ": -- define new op" << endl;break;
+
 	      case ' ': break; // do nothing.
-	      default: cout << "Unknown op";break;
+	      default: cout << "Unknown op" << endl; errfound=1;break;
 	    }
 	  }
 	}
 }
+
